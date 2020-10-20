@@ -1,0 +1,47 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/esteban/ws_moveit/devel/include/**",
+        "/home/esteban/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/esteban/catkin_ws/src/pfms_support/a4_setup/include/**",
+        "/home/esteban/catkin_ws/src/aruco_ros/aruco/include/**",
+        "/home/esteban/catkin_ws/src/aruco_ros/aruco_ros/include/**",
+        "/home/esteban/ws_moveit/src/moveit/moveit_planners/chomp/chomp_motion_planner/include/**",
+        "/home/esteban/catkin_ws/src/people/face_detector/include/**",
+        "/home/esteban/catkin_ws/src/fetch_gazebo/fetch_gazebo/include/**",
+        "/home/esteban/catkin_ws/src/fetch_robot_path_follow/include/**",
+        "/home/esteban/ws_moveit/src/geometric_shapes/include/**",
+        "/home/esteban/catkin_ws/src/people/leg_detector/include/**",
+        "/home/esteban/catkin_ws/src/pfms_support/local_map/include/**",
+        "/home/esteban/catkin_ws/src/pfms_support/map_ray_caster/include/**",
+        "/home/esteban/ws_moveit/src/moveit/moveit_planners/chomp/chomp_interface/include/**",
+        "/home/esteban/ws_moveit/src/moveit/moveit_ros/benchmarks/include/**",
+        "/home/esteban/ws_moveit/src/moveit/moveit_plugins/moveit_ros_control_interface/include/**",
+        "/home/esteban/ws_moveit/src/moveit/moveit_ros/move_group/include/**",
+        "/home/esteban/ws_moveit/src/moveit/moveit_ros/occupancy_map_monitor/include/**",
+        "/home/esteban/ws_moveit/src/moveit/moveit_ros/robot_interaction/include/**",
+        "/home/esteban/ws_moveit/src/moveit/moveit_ros/moveit_servo/include/**",
+        "/home/esteban/ws_moveit/src/moveit/moveit_setup_assistant/include/**",
+        "/home/esteban/ws_moveit/src/moveit/moveit_plugins/moveit_simple_controller_manager/include/**",
+        "/home/esteban/ws_moveit/src/moveit_visual_tools/include/**",
+        "/home/esteban/catkin_ws/src/people/people_tracking_filter/include/**",
+        "/home/esteban/catkin_ws/src/qr_detector/include/**",
+        "/home/esteban/ws_moveit/src/rviz_visual_tools/include/**",
+        "/home/esteban/ws_moveit/src/moveit/moveit_planners/sbpl/core/sbpl_interface/include/**",
+        "/home/esteban/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/esteban/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/esteban/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/home/esteban/catkin_ws/src/usb_cam/include/**",
+        "/home/esteban/catkin_ws/src/vision_visp/visp_bridge/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}
