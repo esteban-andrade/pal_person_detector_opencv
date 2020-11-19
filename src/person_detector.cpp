@@ -214,7 +214,7 @@ void PersonDetector::publishDebugImage(cv::Mat &img,
   }
 
   if (img.channels() == 3 && img.depth() == CV_8U)
-    _cvImgDebug.encoding = sensor_msgs::image_encodings::BGR8;
+    _cvImgDebug.encoding = sensor_msgs::image_encodings::RGB8;
 
   else if (img.channels() == 1 && img.depth() == CV_8U)
     _cvImgDebug.encoding = sensor_msgs::image_encodings::MONO8;
@@ -240,7 +240,7 @@ int main(int argc, char **argv)
   double scale = 1.0;
   pnh.param<double>("scale", scale, scale);
 
-  double freq = 10;
+  double freq = 1;
   pnh.param<double>("rate", freq, freq);
 
   ROS_INFO_STREAM("Setting image scale factor to: " << scale);
